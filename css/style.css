@@ -23,24 +23,53 @@ a {
     justify-content:space-around;
     background-color: black;
     height:10%;
+    font-size: 30px;
     
 }
 
 .footer {
     display: flex;
     justify-content:center;
+    
 }
 
 .header {
     display: flex;
     justify-content: center;
     font-size: 50px;
-    font-family:'Domine', serif;
-    color: yellow;
+    font-family:'Josefin Sans', sans-serif;
+    color: #ffcc00;
 }
 
 .thumbnail {
     display: flex;
     justify-content:space-around;
+}
+
+.thumbnail-image{
+    height: 250px;
+     border-radius:50%;
+    border: 5px solid white;
+    margin: 50px;
+}
+
+#aboutSummary {
+    color:white;
+    display: flex; 
+    padding-left:20px;
+    font-family: 'Courgette', cursive;
+    
+}
+
+.aboutMain{
+    display: flex;
+}
+
+#aboutimage{
+    border:5px solid blue;
+}
+
+#mainImg{
+    display: flex
 }
 
